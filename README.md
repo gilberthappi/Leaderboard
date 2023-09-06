@@ -39,7 +39,6 @@ For more information on the importance of a professional README for your reposit
 </div>
 
 <!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -93,7 +92,6 @@ You can deploy this project using:Github pages
 ## Future Features
 Feature 1: A real-time chat application with support for multiple users.
 
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -141,8 +139,6 @@ YEs
 - **Heading and Styling is needed?**
 
 YEs
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
