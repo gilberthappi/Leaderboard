@@ -1,4 +1,4 @@
-/* ################## */
+/* ############# Reset Style ############# */
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
 
 /* ############# General Style ############# */
 body {
-  background-color: #999;
+  background-color: rgb(156, 153, 150);
   font-family: 'Noto Sans Display', sans-serif;
   max-width: 900px;
   width: 100%;
@@ -60,13 +60,28 @@ input {
   margin-top: 30px;
   border: 2px solid #000;
   background-color: #fff;
+  max-height: 40vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b1b1b1;
 }
 
 .listItem {
   background-color: #fff;
   padding: 5px 20px;
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
 }
 
 .listItem:nth-child(even) {
